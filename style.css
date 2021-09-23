@@ -1,0 +1,140 @@
+*
+{
+  margin: 0;
+  padding: 0;
+
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(classroom.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+#navbar
+{
+ position: sticky;
+ top: 0;
+ z-index: 10;
+}
+.icon
+{
+  width: 200px;
+  height: 70px;
+  float: left;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+.ul{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+ 
+}
+
+ul li a:hover{
+    color: #00b7ff;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content.par{
+
+    
+    
+    
+
+     
+    
+
+    
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 30px;
+ 
+}
+.content h1{
+    
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;;
+}
+
+.content  p
+
+{
+    padding-left: 10%;
+    font-size: calc(1.275rem + .3vw);
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: aqua;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 3s ease;
+}
+.cn:hover{
+    background-color: #ff7200;
+}
+
+.about-content .h2{
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.about-content
+{
+    
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+
+}
+.about .btn{
+    width: 160px;
+    height: 40px;
+    background: aqua;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
